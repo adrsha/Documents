@@ -1,0 +1,35 @@
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+nav{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+nav > ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 3em;
+  background-color: var(--background);
+}
+
+nav > ul > li{
+  margin: 0.5rem;
+}
